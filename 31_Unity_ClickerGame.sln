@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B796B0FA-248B-CD27-34A5-5A63C78B5AC6}") = "31_Unity_ClickerGame", "Assembly-CSharp.csproj", "{CFFD9E6A-F6F2-6B2B-355B-391F021D1B1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFFD9E6A-F6F2-6B2B-355B-391F021D1B1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFD9E6A-F6F2-6B2B-355B-391F021D1B1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFD9E6A-F6F2-6B2B-355B-391F021D1B1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFD9E6A-F6F2-6B2B-355B-391F021D1B1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
