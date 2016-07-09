@@ -43,7 +43,7 @@ public class StoreItem : MonoBehaviour {
 	public void ButtonClicked(){
 		controller.Cash -= cost;
 
-		switch (ItemType) {
+		switch (itemType) {
 		case ItemType.ClickPower:
 			controller.cashPerClick += increaseAmount;
 			break;
