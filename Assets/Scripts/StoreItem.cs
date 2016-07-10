@@ -8,7 +8,7 @@ public enum ItemType {
 
 public class StoreItem : MonoBehaviour {
 	[Tooltip("How much will this upgrade cost?")]
-	public int cost;
+	public float cost;
 
 	public ItemType itemType;
 
@@ -37,11 +37,14 @@ public class StoreItem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		//Whether or not the upgrade is available (Does the player have enough money)
 		button.interactable = (controller.Cash >= cost);
 	}
 
 	public void ButtonClicked(){
 		controller.Cash -= cost;
+		cost *= 1.05f;
+		costText.text = "$" + cost.ToString ("F2");
 
 		switch (itemType) {
 		case ItemType.ClickPower:
